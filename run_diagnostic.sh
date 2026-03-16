@@ -46,8 +46,8 @@ spinner() {
 # ── Clear & Banner ────────────────────────────────────────────
 echo ""
 echo -e "${YELLOW}  (\__/) ${RESET}"
-echo -e "${YELLOW}  ( •ᴗ•) ${WHITE}${BOLD}⚡ macOS Diagnostic v1.0${RESET}"
-echo -e "${YELLOW}  /つ🖥${RESET}"
+echo -e "${YELLOW}  ( •ᴗ•) ${WHITE}${BOLD}macOS Diagnostic v1.0${RESET}"
+echo -e "${YELLOW}  /つ⚡🖥${RESET}"
 echo ""
 
 print_line
