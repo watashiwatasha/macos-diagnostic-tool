@@ -47,9 +47,9 @@ spinner() {
 clear
 
 echo ""
-echo -e "${YELLOW}   (\__/)"
-echo -e "   ( •ᴗ•) ${WHITE}${BOLD}⚡ macOS Diagnostic v1.0${RESET}"
-echo -e "${YELLOW}   /つ🖥${RESET}"
+echo -e "${YELLOW}   /) (\\${RESET}"
+echo -e "${YELLOW}  ( •ᴗ•) ${WHITE}${BOLD}⚡ macOS Diagnostic v1.0${RESET}"
+echo -e "${YELLOW}   づ🖥${RESET}"
 echo ""
 
 print_line

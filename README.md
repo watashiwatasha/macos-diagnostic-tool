@@ -46,18 +46,18 @@ Terminal is a built-in Mac app that lets you run commands — think of it like t
 Copy and paste them one at a time, pressing `Enter` after each:
 
 ```bash
-git clone https://github.com/watashiwatasha/macos-diagnostic-tool.git ~/Documents/Diagnostic-Tool
+git clone https://github.com/watashiwatasha/macos-diagnostic-tool.git ~/Documents/macos-diagnostic-tool
 ```
 
 ```bash
-chmod +x ~/Documents/Diagnostic-Tool/run_diagnostic.sh
+chmod +x ~/Documents/macos-diagnostic-tool/run_diagnostic.sh
 ```
 
 ```bash
-bash ~/Documents/Diagnostic-Tool/run_diagnostic.sh
+bash ~/Documents/macos-diagnostic-tool/run_diagnostic.sh
 ```
 
-> **Don't have Git?** Click the green **Code** button at the top of this page → **Download ZIP** → unzip it → move the folder to `~/Documents/Diagnostic-Tool/` → then run the last two commands above.
+> **Don't have Git?** Click the green **Code** button at the top of this page → **Download ZIP** → unzip it → move the folder to `~/Documents/macos-diagnostic-tool/` → then run the last two commands above.
 
 ### Step 3 — Wait ~30 seconds
 
@@ -73,8 +73,6 @@ The HTML report will open automatically in your browser when done.
 
 ![HTML report showing system info and status](screenshots/report-header.png)
 
-![HTML report showing findings and top space consumers](screenshots/report-findings.png)
-
 ---
 
 ## Running It Again
@@ -82,7 +80,7 @@ The HTML report will open automatically in your browser when done.
 Just run this one command each time:
 
 ```bash
-bash ~/Documents/Diagnostic-Tool/run_diagnostic.sh
+bash ~/Documents/macos-diagnostic-tool/run_diagnostic.sh
 ```
 
 ---
@@ -160,7 +158,7 @@ Yes, completely normal. Some checks need admin access to read system data. Your 
 
 ```bash
 sudo -K
-bash ~/Documents/Diagnostic-Tool/run_diagnostic.sh
+bash ~/Documents/macos-diagnostic-tool/run_diagnostic.sh
 ```
 
 **"python3: command not found"**
@@ -198,7 +196,7 @@ Keep old reports to track trends over time.
 
 ```
 1. Open Terminal
-2. Run: bash ~/Documents/Diagnostic-Tool/run_diagnostic.sh
+2. Run: bash ~/Documents/macos-diagnostic-tool/run_diagnostic.sh
 3. Report opens in browser automatically
 4. Glance at any red/yellow alerts
 5. Fix critical issues if any
