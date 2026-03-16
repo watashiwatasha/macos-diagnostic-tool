@@ -238,7 +238,7 @@ class MacOSDiagnostic:
     # ========== PREFERENCE FILES ==========
     def check_preference_files(self):
         """Scan for leftover/orphaned preference files."""
-        print("🔎 Scanning preference files...")
+        print("Scanning preference files...")
 
         pref_dir = os.path.expanduser("~/Library/Preferences")
         findings = {"suspicious_files": []}
