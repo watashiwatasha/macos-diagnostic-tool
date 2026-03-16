@@ -2,7 +2,7 @@
 """
 macOS System Diagnostic Scanner
 Version: 1.0
-Author: https://github.com/YOUR_USERNAME/macos-diagnostic-tool
+Author: https://github.com/watashiwatasha/macos-diagnostic-tool
 
 Comprehensive health check for:
 - Memory and swap usage
@@ -750,7 +750,7 @@ class MacOSDiagnostic:
 
     <footer>
         <p>macOS System Diagnostic Tool v1.0 &nbsp;|&nbsp;
-           <a href="https://github.com/YOUR_USERNAME/macos-diagnostic-tool">GitHub</a></p>
+           <a href="https://github.com/watashiwatasha/macos-diagnostic-tool">GitHub</a></p>
         <p style="margin-top:6px;opacity:0.5">Full data in companion .json report</p>
     </footer>
 </div>
