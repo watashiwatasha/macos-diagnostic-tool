@@ -10,7 +10,7 @@ Script gratis dan open-source untuk cek kesehatan Mac kamu. Jalankan kapanpun Ma
 
 ## Latar Belakang
 
-Script ini awalnya dibuat ketika Mac saya mulai melambat dan butuh cara untuk mengeceknya. Ternyata cukup berguna untuk dipakai rutin, jadi saya rasa mungkin bisa berguna juga untuk orang lain.
+Script ini awalnya dibuat ketika Mac saya mulai semakin lambat dan saya butuh cara untuk mengeceknya. Ternyata ini cukup berguna bagi saya untuk dipakai secara rutin, jadi saya bagikan di sini, barangkali bisa berguna juga untuk orang lain.
 
 ---
 

@@ -37,7 +37,7 @@ I built this after my Mac started slowing down and I needed a way to diagnose it
 
 ### Step 1 — Open Terminal
 
-Terminal is a built-in Mac app that lets you run commands — think of it like texting instructions to your Mac. It looks scarier than it is.
+Terminal is a built-in Mac app that lets you run commands. Think of it like texting instructions to your Mac.
 
 **How to open it:** Press `Cmd + Space`, type `terminal`, press `Enter`.
 
@@ -150,7 +150,7 @@ xcode-select --install
 
 ## Troubleshooting
 
-**It asked for my password — is that normal?**
+**It asked for my password, is that normal?**
 
 Yes, completely normal. Some checks need admin access to read system data. Your password is never stored or sent anywhere. Just type it and press `Enter` (you won't see it appear as you type — that's normal too).
 
