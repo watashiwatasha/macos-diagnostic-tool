@@ -4,7 +4,7 @@ All notable changes to this project will be documented here.
 
 ---
 
-## [2.0.0] — 2025-02-12
+## [2.0.0] — 2026-03-16
 
 ### Added
 - **Ranked space offenders**: Scans 10+ directories and ranks them by size. Highlights quick cleanup wins (folders over 5GB).
