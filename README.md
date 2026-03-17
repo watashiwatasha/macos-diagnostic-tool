@@ -4,7 +4,7 @@ A free, open-source health check script for macOS. Run it whenever your Mac feel
 
 **No coding experience needed.**
 
-🌐 **English** | [Bahasa Indonesia](README_id.md)
+🌐 **English** | [Bahasa Indonesia](README.id.md)
 
 ---
 
@@ -37,7 +37,7 @@ I built this after my Mac started slowing down and I needed a way to diagnose it
 
 ### Step 1 — Open Terminal
 
-Terminal is a built-in Mac app that lets you run commands. Think of it like texting instructions to your Mac.
+Terminal is a built-in Mac app that lets you run commands — think of it like texting instructions to your Mac. It looks scarier than it is.
 
 **How to open it:** Press `Cmd + Space`, type `terminal`, press `Enter`.
 
@@ -135,6 +135,7 @@ If you see `Python 3.x.x`, you're good. If not:
 ```bash
 xcode-select --install
 ```
+> **Don't worry — this won't install the full Xcode app.** It only installs a small tools package (~500MB) that includes Python. The full Xcode (15GB+) is a separate thing and is not required here.
 
 ---
 
@@ -150,7 +151,7 @@ xcode-select --install
 
 ## Troubleshooting
 
-**It asked for my password, is that normal?**
+**It asked for my password — is that normal?**
 
 Yes, completely normal. Some checks need admin access to read system data. Your password is never stored or sent anywhere. Just type it and press `Enter` (you won't see it appear as you type — that's normal too).
 
