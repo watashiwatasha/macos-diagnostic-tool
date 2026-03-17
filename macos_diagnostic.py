@@ -690,7 +690,7 @@ class MacOSDiagnostic:
 <body>
 <div class="container">
     <header>
-        <h1>🔍 macOS System Diagnostic</h1>
+        <h1>macOS System Diagnostic</h1>
         <p>Generated: {self.timestamp.strftime('%Y-%m-%d %H:%M:%S')}</p>
         <span class="version">v1.0</span>
     </header>
