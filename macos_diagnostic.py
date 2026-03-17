@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 macOS System Diagnostic Scanner
-Version: 2.0.0
+Version: auto (reads from VERSION file)
 Author: https://github.com/watashiwatasha/macos-diagnostic-tool
 
 Comprehensive health check for:
@@ -28,6 +28,16 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, List
 import re
+
+# Read version from VERSION file (same directory as this script)
+def _read_version() -> str:
+    try:
+        version_file = Path(__file__).parent / "VERSION"
+        return version_file.read_text().strip()
+    except Exception:
+        return "unknown"
+
+__version__ = _read_version()
 
 
 class MacOSDiagnostic:
@@ -506,7 +516,7 @@ class MacOSDiagnostic:
         """Run all diagnostic checks."""
         print()
         print("=" * 60)
-        print("  macOS System Diagnostic Scanner v1.0")
+        print(f"  macOS System Diagnostic Scanner v{__version__}")
         print("=" * 60)
         print()
 
@@ -692,7 +702,7 @@ class MacOSDiagnostic:
     <header>
         <h1>macOS System Diagnostic</h1>
         <p>Generated: {self.timestamp.strftime('%Y-%m-%d %H:%M:%S')}</p>
-        <span class="version">v1.0</span>
+        <span class="version">v{__version__}</span>
     </header>
 
     <div class="content">
@@ -749,7 +759,7 @@ class MacOSDiagnostic:
     </div>
 
     <footer>
-        <p>macOS System Diagnostic Tool v1.0 &nbsp;|&nbsp;
+        <p>macOS System Diagnostic Tool v{__version__} &nbsp;|&nbsp;
            <a href="https://github.com/watashiwatasha/macos-diagnostic-tool">GitHub</a></p>
         <p style="margin-top:6px;opacity:0.5">Full data in companion .json report</p>
     </footer>
