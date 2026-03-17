@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 macOS System Diagnostic Scanner
-Version: 1.0
+Version: 2.0.0
 Author: https://github.com/watashiwatasha/macos-diagnostic-tool
 
 Comprehensive health check for:
