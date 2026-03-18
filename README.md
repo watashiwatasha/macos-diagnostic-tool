@@ -4,7 +4,7 @@ A free, open-source health check script for macOS. Run it whenever your Mac feel
 
 **No coding experience needed.**
 
-🌐 **English** | [Bahasa Indonesia](README.id.md)
+🌐 **English** | [Bahasa Indonesia](README_id.md)
 
 ---
 
